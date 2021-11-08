@@ -1,0 +1,217 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 528px) {
+    body{
+        background-color: rgb(202, 235, 202);
+    }
+    .nav-containar{
+        background-color: rgb(135, 158, 135);
+    }
+    
+    .nav-content ul li{
+        display: block;
+        background-color: rgb(122, 150, 122);
+        margin: 0px 12px 3px 12px;
+        border-radius: 8px;
+        text-align: center;
+        padding: 5px;
+        transition: 0.8s;
+        
+    }
+    .nav-content ul li:hover{
+
+        background-color: rgb(106, 129, 94);
+    }
+    .nav-content ul li a{
+        text-decoration: none;
+        color: rgb(205, 233, 198);
+        
+    }
+    .main-containar{
+        background-image: url(resturantpic.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        background-position: center;
+        background-attachment: scroll;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .discount-p{
+        font-size: 1.19rem;
+        background-color: rgb(231, 236, 182);
+        padding: 15px 8px;
+        color: rgb(9, 192, 39);
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 8px;
+        transition: .9s;
+        text-align: center;
+        
+    }
+    .discount-p:hover{
+        background-color: rgb(231, 236, 182);
+        color: rgb(9, 192, 39);
+        box-shadow: 5px 2px rgb(7, 184, 75);
+        padding: 7px 9px;
+        font-size: 2rem;
+
+    }
+    .itemone{
+        border: 2px solid white;
+        padding: 8px 11px;
+        margin: 11px;
+        background-color: rgb(222, 224, 166);
+    }
+    .itemone:hover{
+        box-shadow: 3px 4px 2px seagreen;
+    }
+    .itemone img{
+        height: 188px;
+        width: 100%;
+    }
+    .item-content{
+        background-color: rgb(222, 224, 166);
+    }
+    .item-content p {
+        color: rgb(110, 141, 116);
+    }
+    #footer-containar{
+        background-color: rgb(135, 158, 135);
+    }
+    .footer-content address{
+        color: white;
+        text-align: center;
+        font-size: .7rem;
+        padding: 3px;
+    }
+    
+}
+@media screen and (min-width: 528px) {
+
+    body{
+        background-color: rgb(202, 235, 202);
+    }
+    .nav-containar{
+        background-color: rgb(135, 158, 135);
+    }
+    .nav-content ul{
+        text-align: end;
+        padding: 11px 3px;
+    }
+    
+    .nav-content ul li{
+        display: block;
+        margin: 0px 8px;
+        border-radius: 8px;
+        text-align: center;
+        transition: 0.8s;
+        display: inline;
+        padding: 8px;
+    }
+    .nav-content ul li:hover{
+
+        background-color: rgb(106, 129, 94);
+    }
+    .nav-content ul li a{
+        text-decoration: none;
+        color: rgb(205, 233, 198);
+        
+    }
+    .main-containar{
+        background-image: url(resturantpic.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        background-position: center;
+        background-attachment: scroll;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discount-p{
+        font-size: 1.19rem;
+        background-color: rgb(231, 236, 182);
+        padding: 15px 8px;
+        color: rgb(9, 192, 39);
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 8px;
+        transition: .9s;
+        text-align: center;
+        
+    }
+    .discount-p:hover{
+        background-color: rgb(231, 236, 182);
+        color: rgb(9, 192, 39);
+        box-shadow: 5px 2px rgb(7, 184, 75);
+        padding: 30px 16px;
+        font-size: 2rem;
+
+    }
+
+    .food-content{
+        text-align: center;
+    }
+    .itemone{
+        border: 2px solid white;
+        padding: 3px 6px;
+        
+        width: 29%;
+        margin: 5px 11px;
+        float: left;
+        background-color: rgb(222, 224, 166);
+    }
+    .itemone:hover{
+        box-shadow: 3px 4px 2px seagreen;
+    }
+    .itemone img{
+        height: 188px;
+        width: 98%;
+    }
+    .item-content{
+        width: 98%;
+        background-color: rgb(222, 224, 166);
+    }
+    .item-content p {
+        color: rgb(110, 141, 116);
+    }
+    .clear-div{
+        clear: both;
+    }
+    #footer-containar{
+        background-color: rgb(135, 158, 135);
+    }
+    .footer-content address{
+        color: white;
+        text-align: center;
+        font-size: .7rem;
+        padding: 3px;
+    }
+
+}
+hr{
+    border: dotted;
+    border-bottom: none;
+    color: white;
+}
+.about-content{
+    padding: 11px;
+    text-align: justify;
+    background-color: rgb(223, 221, 221);
+}
+#us-about{
+    font-style: italic;
+    font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
